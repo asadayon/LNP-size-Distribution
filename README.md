@@ -7,11 +7,11 @@ Paper link: https://www.nature.com/articles/s42003-024-06589-5
 ## 📊 Results
 
 ### 🔹 Size Distribution Output
-![Size Distribution](images/size_distribution.png)
+![Size Distribution](images/distribution.png)
 
 
 ### 🔹 Segmentation Output
-![Segmented Output](images/segmented_output.png)
+![Segmented Output](images/segmention_output.png)
 
 ### 🔹 Homogeniety Analysis
 ![Homogeniety analysis](images/particle.png)
