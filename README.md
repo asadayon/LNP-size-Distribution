@@ -1,10 +1,34 @@
-# Semantic Segmentation of LNPs from (Cryo-TEM) images using Self-supervised learning techniques and automatic LNPs size distribution quantification
+# 🧪 Semantic Segmentation of LNPs from (Cryo-TEM) images using Self-supervised learning techniques and automatic LNPs size distribution quantification
 Paper link: https://www.nature.com/articles/s42003-024-06589-5
 
-# 🧪 AI-Driven Analysis of Lipid Nanoparticles (LNPs) from Cryo-TEM Images  
-### Semantic Segmentation & Automated Size Distribution Quantification
+
 
 ---
+## 📊 Results
+
+### 🔹 Size Distribution Output
+![Size Distribution](images/size_distribution.png)
+
+
+### 🔹 Segmentation Output
+![Segmented Output](images/segmented_output.png)
+
+### 🔹 Homogeniety Analysis
+![Homogeniety analysis](images/particle.png)
+---
+
+### 🔹 Segmentation Performance Comparison
+| Model       | Training Type        | mIoU (%) |
+|------------|---------------------|----------|
+| U-Net      | Supervised          | 86.03    |
+| BT-UNet    | Self-supervised (20%) | 80.17    |
+| BT-UNet    | Self-supervised (50%) | **91.07** |
+
+---
+
+
+---
+
 
 ## 📌 Overview
 This project focuses on **automating the size distribution analysis of Lipid Nanoparticles (LNPs)** from Cryogenic Transmission Electron Microscopy (Cryo-TEM) images using **deep learning and image processing techniques**.
@@ -50,33 +74,7 @@ Manual measurement is time-consuming and error-prone. This work provides an **en
 
 ---
 
-## 📊 Results
 
-### 🔹 Segmentation Output
-![Segmented Output](images/segmented_output.png)
-
----
-
-### 🔹 Segmentation Performance Comparison
-| Model       | Training Type        | mIoU (%) |
-|------------|---------------------|----------|
-| U-Net      | Supervised          | 86.03    |
-| BT-UNet    | Self-supervised (20%) | 80.17    |
-| BT-UNet    | Self-supervised (50%) | **91.07** |
-
----
-
-### 🔹 Size Distribution Output
-![Size Distribution](images/size_distribution.png)
-
----
-
-### 🔹 Original Paper Comparison
-Results are consistent with experimental findings reported in:
-
-> *Development of an Extended Action Fostemsavir Lipid Nanoparticle*
-
----
 
 ## 📂 Code Structure
 
