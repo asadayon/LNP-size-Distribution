@@ -11,7 +11,7 @@ Paper link: https://www.nature.com/articles/s42003-024-06589-5
 
 
 ### 🔹 Segmentation Output
-![Segmented Output](images/segmention_output.png)
+![Segmented Output](images/segmentation_output.png)
 
 ### 🔹 Homogeniety Analysis
 ![Homogeniety analysis](images/particle.png)
